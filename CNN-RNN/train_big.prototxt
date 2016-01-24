@@ -48,8 +48,8 @@ layers {
   top: "conv1_1"
   name: "conv1_1"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -69,8 +69,8 @@ layers {
   top: "conv1_2"
   name: "conv1_2"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -123,8 +123,8 @@ layers {
   top: "conv2_2"
   name: "conv2_2"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -156,8 +156,8 @@ layers {
   top: "conv3_1"
   name: "conv3_1"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -177,8 +177,8 @@ layers {
   top: "conv3_2"
   name: "conv3_2"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -198,8 +198,8 @@ layers {
   top: "conv3_3"
   name: "conv3_3"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -231,8 +231,8 @@ layers {
   top: "conv4_1"
   name: "conv4_1"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -252,8 +252,8 @@ layers {
   top: "conv4_2"
   name: "conv4_2"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -273,8 +273,8 @@ layers {
   top: "conv4_3"
   name: "conv4_3"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -306,8 +306,8 @@ layers {
   top: "conv5_1"
   name: "conv5_1"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -329,8 +329,8 @@ layers {
   top: "conv5_2"
   name: "conv5_2"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -352,8 +352,8 @@ layers {
   top: "conv5_3"
   name: "conv5_3"
   type: CONVOLUTION
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -391,8 +391,8 @@ layers {
   name: "fc6"
   type: CONVOLUTION
   strict_dim: false
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -423,8 +423,8 @@ layers {
   name: "fc7"
   type: CONVOLUTION
   strict_dim: false
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
@@ -453,8 +453,8 @@ layers {
   name: "fc8_exper"
   type: CONVOLUTION
   strict_dim: false
-  blobs_lr: 0
-  blobs_lr: 0
+  blobs_lr: 1
+  blobs_lr: 2
   weight_decay: 1
   weight_decay: 0
   convolution_param {
